@@ -1,0 +1,18 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:Arial;
+}
+.card-collection{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  
+}
+.standout{
+   box-shadow: 10px 10px 5px black;
+}
+.header ,.content,.footer{
+  text-align:center;
+}
